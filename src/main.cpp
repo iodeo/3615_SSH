@@ -28,7 +28,7 @@ void handleStateNew(Minitel* minitel) {
 }
 
 void controlTask(void *pvParameter) {
-    Minitel minitel = Minitel(Serial);
+    Minitel minitel = Minitel(Serial2);
 
     l10n.setLanguage((Languages)preferences.getUShort("language_index", 0));
 
