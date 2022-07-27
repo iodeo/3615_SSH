@@ -135,7 +135,7 @@ unsigned long WiFiMenu::getSSIDSelection() {
 }
 
 void WiFiMenu::passwordForm() {
-    _connectionStatus = SYSTEM_EVENT_MAX; // fake unattainable event
+    _connectionStatus = ARDUINO_EVENT_MAX; // fake unattainable event
     _minitel->moveCursorReturn(2);
     _minitel->println(l10n.get(L10N_STRINGS::WIFI_PAGE_PASSWORD));
     _minitel->print(".");
