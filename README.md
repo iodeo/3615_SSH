@@ -15,4 +15,4 @@ Set-up with windows os is:
 * platformio extension installed from vs code
 * git installed
 
-Minitel ESP32 dev board is available on [tindie](https://www.tindie.com/products/25418/)
+Minitel ESP32 dev board is [available on tindie](https://www.tindie.com/products/25418/) !
